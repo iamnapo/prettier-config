@@ -31,5 +31,8 @@
 	"devDependencies": {},
 	"peerDependencies": {
 		"prettier": ">=2"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
