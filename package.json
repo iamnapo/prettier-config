@@ -1,0 +1,32 @@
+{
+	"name": "@iamnapo/prettier-config",
+	"version": "0.0.0",
+	"description": "Prettier shareable config for iamnapo’s coding style",
+	"keywords": [
+		"prettier",
+		"prettierconfig",
+		"config",
+		"iamnapo",
+		"styleguide"
+	],
+	"homepage": "https://github.com/iamnapo/prettier-config-iamnapo#readme",
+	"bugs": {
+		"url": "https://github.com/iamnapo/prettier-config-iamnapo/issues"
+	},
+	"repository": "github:iamnapo/prettier-config-iamnapo",
+	"license": "MIT",
+	"author": {
+		"name": "Napoleon-Christos Oikonomou",
+		"email": "Napoleonoikon@gmail.com",
+		"url": "https://iamnapo.me"
+	},
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"dependencies": {},
+	"devDependencies": {},
+	"peerDependencies": {
+		"prettier": ">=2"
+	}
+}
