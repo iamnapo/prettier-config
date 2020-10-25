@@ -9,11 +9,11 @@
 		"iamnapo",
 		"styleguide"
 	],
-	"homepage": "https://github.com/iamnapo/prettier-config-iamnapo#readme",
+	"homepage": "https://github.com/iamnapo/prettier-config#readme",
 	"bugs": {
-		"url": "https://github.com/iamnapo/prettier-config-iamnapo/issues"
+		"url": "https://github.com/iamnapo/prettier-config/issues"
 	},
-	"repository": "github:iamnapo/prettier-config-iamnapo",
+	"repository": "github:iamnapo/prettier-config",
 	"license": "MIT",
 	"author": {
 		"name": "Napoleon-Christos Oikonomou",
