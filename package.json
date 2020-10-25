@@ -24,6 +24,9 @@
 	"files": [
 		"index.json"
 	],
+	"scripts": {
+		"test": ":"
+	},
 	"dependencies": {},
 	"devDependencies": {},
 	"peerDependencies": {
