@@ -2,7 +2,7 @@
 
 > Prettier shareable config for [iamnapo](https://iamnapo.me)’s coding style
 
-[![npm](https://img.shields.io/npm/v/@iamnapo/prettier-config.svg?style=for-the-badge&logo=npm&label=)](https://www.npmjs.com/package/@iamnapo/prettier-config) [![license](https://img.shields.io/github/license/iamnapo/prettier-config.svg?style=for-the-badge)](./LICENSE) [![style](https://img.shields.io/badge/code%20style-iamnapo-cyan.svg?style=for-the-badge)](https://iamnapo.me)
+[![npm](https://img.shields.io/npm/v/@iamnapo/prettier-config.svg?style=for-the-badge&logo=npm&label=)](https://www.npmjs.com/package/@iamnapo/prettier-config) [![style](https://img.shields.io/badge/code%20style-iamnapo-cyan.svg?style=for-the-badge)](https://iamnapo.me)
 
 ## Install
 
