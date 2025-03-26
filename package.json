@@ -20,14 +20,16 @@
 		"email": "Napoleonoikon@gmail.com",
 		"url": "https://iamnapo.me"
 	},
-	"main": "index.json",
+	"type": "module",
+	"exports": "./index.js",
 	"files": [
-		"index.json"
+		"index.js"
 	],
 	"peerDependencies": {
-		"prettier": ">=2"
+		"prettier": ">=3"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"provenance": true
 	}
 }
