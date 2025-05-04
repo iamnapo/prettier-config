@@ -1,7 +1,8 @@
 /** @type {import("prettier").Config} */
 const config = {
-	printWidth: 130,
+	printWidth: 120,
 	useTabs: true,
+	experimentalTernaries: true,
 	objectWrap: "collapse",
 	overrides: [{ files: ["*.yml", "*.yaml"], options: { useTabs: false } }],
 };

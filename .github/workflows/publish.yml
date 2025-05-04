@@ -15,6 +15,9 @@ jobs:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
 
+      - name: 📦 Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - name: ⎔ Setup node
         uses: actions/setup-node@v4
         with:
@@ -22,7 +25,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: 🚀 Release to npm
-        run: npm publish
+        run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -34,6 +37,6 @@ jobs:
           scope: "@iamnapo"
 
       - name: 🚀 Release to GitHub
-        run: npm publish
+        run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
